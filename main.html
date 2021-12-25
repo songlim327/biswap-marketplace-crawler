@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiSwap NFT Marketplace Crawler</title>
+    <style>
+      #api {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #api td,
+      #api th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+
+      #api tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #api tr:hover {
+        background-color: #ddd;
+      }
+
+      #api th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04aa6d;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BiSwap NFT Marketplace Crawler</h1>
+    <table id="api">
+      <tr>
+        <th>Endpoint</th>
+        <th>Description</th>
+        <th>Query Parameter</th>
+        <th>Query Description</th>
+      </tr>
+      <tr>
+        <td>/player</td>
+        <td>Get players data in the marketplace</td>
+        <td>se=1000</td>
+        <td>Fetch player with squid energy (SE) more than stated</td>
+      </tr>
+      <tr>
+        <td>/bus</td>
+        <td>Get bus data in the marketplace</td>
+        <td>capacity=1</td>
+        <td>Fetch bus with capacity more than stated</td>
+      </tr>
+    </table>
+  </body>
+</html>

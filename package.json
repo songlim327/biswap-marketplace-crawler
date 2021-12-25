@@ -1,0 +1,21 @@
+{
+  "name": "biswap-marketplace-crawler",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Song Lim",
+  "license": "ISC",
+  "description": "A webserver which crawl biswap marketplace data, aggregate, filter and then serve",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "compression": "^1.7.4",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "node-fetch": "^2.6.6"
+  },
+  "engines": {
+    "node": "15.9.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
